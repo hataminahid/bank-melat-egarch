@@ -30,12 +30,3 @@ of `R/00_config.R`.
 
 Differences between the appendix code and the report (EGARCH order, Ljung–Box,
 distribution, return scaling) are explained in [`../NOTES.md`](../NOTES.md).
-
----
-
-## خلاصه‌ی فارسی
-
-1. فایل داده‌ی روزانه‌ی نماد «وبملت» را از tsetmc.com دانلود و با نام `data/melat.csv` ذخیره کنید (جزئیات ستون‌ها در `data/README.md`).
-2. `Rscript install_packages.R` و سپس `Rscript run_all.R`.
-3. خروجی‌ها (جدول ۱ تا ۶ و شکل‌ها) در `results/` ساخته می‌شوند.
-4. تنظیمات مدل (مرتبه‌ی EGARCH، توزیع خطا، مقیاس بازده) در ابتدای `R/00_config.R` است.
